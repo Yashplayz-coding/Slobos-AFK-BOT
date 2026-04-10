@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "TestserverJava.aternos.me:36761",
+    "ip": "TestserverJava.aternos.me",
     "port": 36761,
     "version": "1.21.11"
   },
