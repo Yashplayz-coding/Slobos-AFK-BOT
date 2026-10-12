@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "Technoblade",
   "bot-account": {
     "username": "Technoblade",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
+    "ip": "167.235.93.185",
+    "port": 28539,
     "version": "1.21.1"
   },
   "position": {
@@ -26,23 +26,23 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 500,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "",
+        "",
+        ""
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 20000,
+    "max-reconnect-delay": 3000,
     "periodic-rejoin": {
       "enabled": true,
       "min-interval": 20,
-      "max-interval": 60
+      "max-interval": 50
     }
   },
   "movement": {
@@ -69,8 +69,8 @@
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": true,
